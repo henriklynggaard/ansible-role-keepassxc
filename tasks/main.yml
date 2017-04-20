@@ -1,0 +1,6 @@
+---
+# tasks file for ansible-role-keepassxc
+- name: Install KeePassXC
+  become: yes
+  apt:
+    deb: "{{keepass_url }}"

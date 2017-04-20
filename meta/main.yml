@@ -1,0 +1,21 @@
+galaxy_info:
+  author: Henrik Lynggaard Hansen
+  description: Installs KeePassXC
+
+  license: MIT
+
+  min_ansible_version: 2.1
+
+  platforms:
+  - name: Ubuntu
+    versions:
+    - trusty
+    - xenial
+
+  galaxy_tags:
+    - workstation
+    - keepass
+    - keepassx
+    - keepassxc
+
+dependencies: []

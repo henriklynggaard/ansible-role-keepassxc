@@ -1,0 +1,4 @@
+---
+# defaults file for ansible-role-keepassxc
+keepass_version: 2.1.4-1
+keepass_url: "https://github.com/magkopian/keepassxc-debian/releases/download/{{keepass_version}}/keepassxc_{{keepass_version}}_amd64_stable.deb"
